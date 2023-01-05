@@ -6,13 +6,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+
+import com.montanablackmod.init.MontanablackModModTabs;
 
 public abstract class SandwichCapGOMLItem extends ArmorItem {
 	public SandwichCapGOMLItem(EquipmentSlot slot, Item.Properties properties) {
@@ -61,7 +62,7 @@ public abstract class SandwichCapGOMLItem extends ArmorItem {
 
 	public static class Helmet extends SandwichCapGOMLItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(MontanablackModModTabs.TAB_MONTANA_BLACK_CREATIVE_INVENTORY));
 		}
 
 		@Override
