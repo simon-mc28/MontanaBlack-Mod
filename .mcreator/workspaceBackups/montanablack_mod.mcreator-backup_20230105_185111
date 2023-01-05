@@ -18,7 +18,6 @@
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

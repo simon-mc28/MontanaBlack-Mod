@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="MontanaBlack Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="simon_mc, Volwert123"
 
 [[dependencies.montanablack_mod]]
