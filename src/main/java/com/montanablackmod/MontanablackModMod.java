@@ -38,6 +38,7 @@ import java.util.AbstractMap;
 
 import com.montanablackmod.init.MontanablackModModTabs;
 import com.montanablackmod.init.MontanablackModModItems;
+import com.montanablackmod.init.MontanablackModModEntities;
 
 @Mod("montanablack_mod")
 public class MontanablackModMod {
@@ -50,6 +51,7 @@ public class MontanablackModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MontanablackModModItems.REGISTRY.register(bus);
+		MontanablackModModEntities.REGISTRY.register(bus);
 
 	}
 
