@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SandwichCapGOML",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandwich_cap_goml",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.montanablack_mod.sandwich_cap_goml_boots": "Sandwich Cap GOML Stiefel",
+      "item.montanablack_mod.sandwich_cap_goml_helmet": "Sandwich Cap \"GOML\"",
+      "item.montanablack_mod.sandwich_cap_goml_chestplate": "Sandwich Cap GOML Körper",
+      "item.montanablack_mod.sandwich_cap_goml_leggings": "Sandwich Cap GOML Beinschutz"
+    }
   },
   "foldersRoot": {
     "name": "~",

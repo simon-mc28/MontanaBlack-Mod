@@ -36,6 +36,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import com.montanablackmod.init.MontanablackModModItems;
+
 @Mod("montanablack_mod")
 public class MontanablackModMod {
 	public static final Logger LOGGER = LogManager.getLogger(MontanablackModMod.class);
@@ -45,6 +47,8 @@ public class MontanablackModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MontanablackModModItems.REGISTRY.register(bus);
 
 	}
 
