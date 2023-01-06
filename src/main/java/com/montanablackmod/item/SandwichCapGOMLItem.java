@@ -20,12 +20,12 @@ public abstract class SandwichCapGOMLItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 55;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{0, 0, 0, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -35,7 +35,7 @@ public abstract class SandwichCapGOMLItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_leather"));
 			}
 
 			@Override
