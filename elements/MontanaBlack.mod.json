@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Montana Black",
+    "mobName": "MontanaBlack",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelcustom_model",
     "mobModelTexture": "montanablack_skin.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

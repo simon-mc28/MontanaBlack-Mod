@@ -1,0 +1,71 @@
+{
+  "mod_elements": [
+    {
+      "name": "SandwichCapGOML",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandwich_cap_goml",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MontanaBlackCreativeInventory",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "montana_black_creative_inventory"
+    },
+    {
+      "name": "MontanaBlack",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "montana_black"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmontana_black_creative_inventory": "MontanaBlack Mod",
+      "item.montanablack_mod.sandwich_cap_goml_boots": "Sandwich Cap GOML Stiefel",
+      "item.montanablack_mod.sandwich_cap_goml_helmet": "Sandwich Cap \"GOML\"",
+      "item.montanablack_mod.sandwich_cap_goml_chestplate": "Sandwich Cap GOML Körper",
+      "item.montanablack_mod.montana_black_spawn_egg": "MontanaBlack Spawn Egg",
+      "entity.montanablack_mod.montana_black": "MontanaBlack",
+      "item.montanablack_mod.sandwich_cap_goml_leggings": "Sandwich Cap GOML Beinschutz"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "montanablack_mod",
+    "modName": "MontanaBlack Mod",
+    "version": "1.0.0",
+    "author": "simon_mc, Volwert123",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "https://www.twitch.tv/montanablack88",
+    "modElementsPackage": "com.montanablackmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200345616
+}
