@@ -1,9 +1,7 @@
 {
   "itemGroup.tabmontana_black_creative_inventory": "MontanaBlack Mod",
-  "item.montanablack_mod.sandwich_cap_goml_boots": "Sandwich Cap GOML Stiefel",
   "item.montanablack_mod.sandwich_cap_goml_helmet": "GOML cap",
-  "item.montanablack_mod.sandwich_cap_goml_chestplate": "Sandwich Cap GOML Körper",
   "item.montanablack_mod.montana_black_spawn_egg": "MontanaBlack Spawnei",
-  "entity.montanablack_mod.montana_black": "MontanaBlack",
-  "item.montanablack_mod.sandwich_cap_goml_leggings": "Sandwich Cap GOML Beinschutz"
+  "subtitles.entity.montanablack.hurt": "",
+  "entity.montanablack_mod.montana_black": "MontanaBlack"
 }

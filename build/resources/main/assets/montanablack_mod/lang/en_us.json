@@ -1,9 +1,7 @@
 {
   "itemGroup.tabmontana_black_creative_inventory": "MontanaBlack Mod",
-  "item.montanablack_mod.sandwich_cap_goml_boots": "",
   "item.montanablack_mod.sandwich_cap_goml_helmet": "GOML cap",
-  "item.montanablack_mod.sandwich_cap_goml_chestplate": "",
   "item.montanablack_mod.montana_black_spawn_egg": "MontanaBlack Spawn Egg",
-  "entity.montanablack_mod.montana_black": "MontanaBlack",
-  "item.montanablack_mod.sandwich_cap_goml_leggings": ""
+  "subtitles.entity.montanablack.hurt": "",
+  "entity.montanablack_mod.montana_black": "MontanaBlack"
 }

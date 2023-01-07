@@ -1,0 +1,11 @@
+{
+  "entity.montanablack.hurt": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "montanablack_mod:entity.montanablack.hurt",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -50,6 +50,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2023-01-05 19:03:28 +0100",
+      "minecraft:lukewarm_ocean": "2023-01-07 14:09:20 +0100",
       "minecraft:jungle": "2023-01-05 19:03:01 +0100"
     },
     "done": false

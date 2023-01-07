@@ -37,6 +37,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import com.montanablackmod.init.MontanablackModModTabs;
+import com.montanablackmod.init.MontanablackModModSounds;
 import com.montanablackmod.init.MontanablackModModItems;
 import com.montanablackmod.init.MontanablackModModEntities;
 
@@ -49,6 +50,7 @@ public class MontanablackModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		MontanablackModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		MontanablackModModSounds.REGISTRY.register(bus);
 
 		MontanablackModModItems.REGISTRY.register(bus);
 		MontanablackModModEntities.REGISTRY.register(bus);
